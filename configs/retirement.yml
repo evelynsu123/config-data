@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: retirement-service
+  data:
+    mongodb:
+      database: RetirementService
+      port: '27017'
+      host: localhost
+server:
+  port: '8005'
+
