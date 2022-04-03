@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: deposit-service
+  data:
+    mongodb:
+      database: DepositService
+      port: 27017
+      host: localhost
+server:
+  port: 8004
+
