@@ -8,5 +8,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUri:
-      defaulZone: http://${eureka.instance.hostname}:${server.port}/eureka/  
-            
+      defaulZone: http://${eureka.instance.hostname}:${server.port}/eureka/
