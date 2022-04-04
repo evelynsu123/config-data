@@ -1,9 +1,9 @@
 spring:
   application:
-    name: deposit-service
+    name: customers-service
   data:
     mongodb:
-      database: DepositService
+      database: CustomerService
       port: 27017
       host: localhost
 server:
