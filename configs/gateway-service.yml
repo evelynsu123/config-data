@@ -25,4 +25,7 @@ spring:
           uri: lb://retirement-service
           predicates:
             - Path=/Retirement/**    
-        
+        - id: credits-service
+          uri: lb://credits-service
+          predicates:
+            - Path=/Credits_Service/**   
