@@ -13,8 +13,8 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: deposit-service
-          uri: lb://deposit-service
+        - id: account-service
+          uri: lb://account-service
           predicates:
-            - Path=/deposit/**
+            - Path=/account/**
         

@@ -4,8 +4,8 @@ spring:
   data:
     mongodb:
       database: RetirementService
-      port: '27017'
+      port: 27017
       host: localhost
 server:
-  port: '8005'
+  port: 8006
 
