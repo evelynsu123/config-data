@@ -21,4 +21,8 @@ spring:
           uri: lb://customers-service
           predicates:
             - Path=/Customers/**
+        - id: retirement-service
+          uri: lb://retirement-service
+          predicates:
+            - Path=/Retirement/**    
         
