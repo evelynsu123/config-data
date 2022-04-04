@@ -1,13 +1,13 @@
 spring:
   application:
-    name: deposit-service
+    name: credits-service
   data:
     mongodb:
-      database: DepositService
+      database: CreditService
       port: 27017
       host: localhost
 server:
-  port: 8002
+  port: 8003
 eureka:
   client: 
     serviceUrl:

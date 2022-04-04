@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: account-service
+  data:
+    mongodb:
+      database: AccountService
+      port: 27017
+      host: localhost
+server:
+  port: 8002
+eureka:
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
