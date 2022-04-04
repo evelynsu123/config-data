@@ -29,3 +29,7 @@ spring:
           uri: lb://credits-service
           predicates:
             - Path=/Credits_Service/**   
+        - id: deposit-service
+          uri: lb://deposit-service
+          predicates:
+            - Path=/Depositos/**  
