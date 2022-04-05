@@ -16,7 +16,7 @@ spring:
         - id: account-service
           uri: lb://account-service
           predicates:
-            - Path=/Account/**
+            - Path=/account/**
         - id: customers-service
           uri: lb://customers-service
           predicates:
@@ -28,7 +28,7 @@ spring:
         - id: credits-service
           uri: lb://credits-service
           predicates:
-            - Path=/Credits_Service/**   
+            - Path=/credits/**   
         - id: deposit-service
           uri: lb://deposit-service
           predicates:
